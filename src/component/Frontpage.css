@@ -1,0 +1,40 @@
+.button {
+  /* display: flex;
+  flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  padding: 10px, 18px;
+  gap: 10px;
+
+  width: 220px;
+  height: 44px;
+  border: none;
+  background: black;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+
+  transition: 0.3s;
+  background: ease-in;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  max-width: 1180px;
+  height: calc(100-64);
+  align-items: center;
+}
+.dice {
+  font-size: 96px;
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  transition: 0.3s;
+  background: ease-in;
+  cursor: pointer;
+}
